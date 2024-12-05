@@ -1,41 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-16">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Un lugar donde las
+  <head>
+    <meta charset="UTF-16" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Un lugar donde las
     personas que conocemos la verdad podemos reunirnos para hablar de los planes de los
-    entes superiores que manipulan al rebaño">
-    <meta name="author" content="Gabriel Hernández Collado">
-    <link rel="stylesheet" href="style.css">
+    entes superiores que manipulan al rebaño"
+    />
+    <meta name="author" content="Gabriel Hernández Collado" />
+    <link rel="stylesheet" href="style.css" />
     <title>terraPLANISTA</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>terra<span id="logo">PLANISTA</span></h1>
-        <nav>
-            <ul>
-                <li>Verdades</li>
-                <li>Redes</li>
-                <li>Ayuda</li>
-            </ul>
-        </nav>
+      <h1>terra<span id="logo">PLANISTA</span></h1>
+      <nav>
+        <ul class="bordes">
+          <li>Verdades</li>
+          <li>Redes</li>
+          <li>Ayuda</li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section>
-            <ul id="lista-imagenes">
-                <li><img src="img/img1.jpg" alt=""></li>
-                <li><img src="img/img2.jpg" alt=""></li>
-                <li><img src="img/img3.jpg" alt=""></li>
-                <li><img src="img/img4.jpg" alt=""></li>
-            </ul>
-        </section>
-        <section>
-            <h2></h2>
-        </section>
-    </main>
-    <footer>
+      <section>
+        <ul id="lista-imagenes">
+          <li><img class="bordes" src="img/img1.jpg" alt="Mundo disco" /></li>
+          <li><img class="bordes" src="img/img2.jpg" alt="El Lagarto ™" /></li>
+          <li><img class="bordes" src="img/img3.png" alt="Gujero" /></li>
+          <li><img class="bordes" src="img/img4.jpg" alt="Cocaína aérea" /></li>
+        </ul>
+      </section>
 
-    </footer>
-</body>
+      <section id="sobre-nosotros-section">
+        <h2>Sobre nosotros</h2>
+        <p>
+          Si quieres conocer la verdad, este es tu lugar. El gobierno, aliado
+          con las grandes élites del universo y con el consentimiento del papa,
+          nos controla. Su objetivo: la dominación total. Quieren someternos y
+          hacernos sudar, para extraer de nosotros la urea que excretamos cuando
+          sudamos, que es el alimento preferido de los reptilianos.<br /><br />
+          No nos doblegarán. No daremos nuestro brazo a torcer. Esto es una
+          guerra contra el mismísimo Satán. Somos seres divinos y derrotaremos a
+          las fuerzas del caos.<br /><br />
+          Si sabes pensar, únete a nosotros. Con nosotros estarás a salvo. Con
+          nosotros serás uno y por fin serás libre. Líbrate de las ataduras de
+          la dictadura en la que vivimos y experimenta por primera vez en tu
+          vida la libertad a partir de la verdad que te ofrecemos. Ya nunca más
+          podrán hacerte sudar. Ningún reptiliano más podrá alimentarse de tu
+          urea a partir de ahora.
+        </p>
+
+        <quote>
+          <em
+            ><p>
+              De entre los peores males que el hombre ha creado, Internet es el
+              más vil de ellos - Albert Einsten
+            </p></em
+          >
+        </quote>
+      </section>
+      <section id="contacto-section">
+        <h2>Contacto</h2>
+        <form action="">
+          <fieldset>
+            <legend>Datos Personales</legend>
+            <input
+              class="inputs"
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Nombre..."
+            /><br />
+            <input
+              class="inputs"
+              type="text"
+              name="apellidos"
+              id="apellidos"
+              placeholder="Apellidos..."
+            /><br />
+            <input
+              class="inputs"
+              type="text"
+              name="correo"
+              id="correo"
+              placeholder="Correo..."
+            /><br />
+            <input
+              class="inputs"
+              type="text"
+              name="edad"
+              id="edad"
+              placeholder="Edad..."
+            />
+            <br />
+
+            <div>
+              <h3>Género:</h3>
+              <input type="radio" name="genero" id="humano" />
+              <label for="humano">Humano</label>
+
+              <input type="radio" name="genero" id="reptiliano" />
+              <label for="reptiliano">Reptiliano</label>
+
+              <input type="radio" name="genero" id="parshmenio" />
+              <label for="parshmenio">Parshmenio</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Mensaje</legend>
+            <input
+            class="inputs"
+              type="text"
+              name="asunto"
+              id="asunto"
+              placeholder="Asunto..."
+            /><br />
+            <textarea
+            class="inputs"
+              name="mensaje"
+              id="mensaje"
+              placeholder="Mensaje..."
+            ></textarea
+            ><br />
+            <input type="file" name="archivo" id="archivo" />
+          </fieldset>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
