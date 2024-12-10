@@ -31,10 +31,9 @@ header h1 {
   -moz-text-fill-color: transparent;
 }
 
-header ul {
+header nav ul {
   padding-left: 0;
   list-style: none;
-  display: flex;
 }
 
 .bordes {
@@ -44,8 +43,55 @@ header ul {
   border-bottom: #aaa 5px solid;
 }
 
-header ul li {
+ul.bordes {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+
   padding: 20px;
+}
+
+ul.bordes ul {
+  position: absolute;
+}
+
+ul.bordes li {
+  margin-right: 20px;
+  position: relative;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+ul.bordes ul li {
+  right: 40px;
+  list-style-type: none;
+  background-color: #444;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+ul.bordes ul li:hover {
+  background-color: #333;
+  transition: 0.2s;
+}
+
+ul.bordes ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul.bordes ul li {
+  display: block;
+}
+
+ul.bordes ul {
+  transform: scale(1, 0);
+  transform-origin: top center;
+  transition: transform 0.2s;
+}
+
+ul.bordes li:hover ul {
+  transform: scale(1, 1);
 }
 
 #lista-imagenes {
@@ -54,7 +100,6 @@ header ul li {
   flex-wrap: wrap;
   list-style: none;
 }
-
 
 #lista-imagenes img {
   width: 400px;
@@ -110,4 +155,25 @@ form button {
   width: 100%;
   margin: 10px;
   padding: 10px;
+}
+
+footer {
+  background-color: black;
+  margin-top: 50px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer a {
+  color: white;
+}
+
+footer ul {
+  list-style: none;
+}
+footer p {
+  color: #333;
 }

@@ -18,9 +18,58 @@
       <h1>terra<span id="logo">PLANISTA</span></h1>
       <nav>
         <ul class="bordes">
-          <li>Verdades</li>
-          <li>Redes</li>
-          <li>Ayuda</li>
+          <li>
+            Verdades
+            <ul>
+              <li>
+                <a
+                  href="https://es.wikipedia.org/wiki/Reptiloide"
+                  target="_blank"
+                  >Reptilianos</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://es.wikipedia.org/wiki/Circuito_integrado"
+                  target="_blank"
+                  >Microchips</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://es.wikipedia.org/wiki/Teoría_de_la_conspiración_de_las_estelas_químicas"
+                  target="_blank"
+                  >Chemtrails</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            Redes
+            <ul>
+              <li>
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+              </li>
+              <li><a href="https://x.com/home" target="_blank">Twitter</a></li>
+              <li>
+                <a href="https://www.instagram.com" target="_blank"
+                  >Instagram</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            Ayuda
+            <ul>
+              <li><a href="#sobre-nosotros-section">Sobre nosotros</a></li>
+              <li>
+                <a href="https://www.paypal.com/es/home" target="_blank"
+                  >Financiación</a
+                >
+              </li>
+              <li><a href="#contacto-section">Contacto</a></li>
+            </ul>
+          </li>
         </ul>
       </nav>
     </header>
@@ -33,7 +82,6 @@
           <li><img class="bordes" src="img/img4.jpg" alt="Cocaína aérea" /></li>
         </ul>
       </section>
-
       <section id="sobre-nosotros-section">
         <h2>Sobre nosotros</h2>
         <p>
@@ -64,7 +112,7 @@
       </section>
       <section id="contacto-section">
         <h2>Contacto</h2>
-        <form action="">
+        <form action="mailto:terraplanismo@laverdad.com" method="POST">
           <fieldset>
             <legend>Datos Personales</legend>
             <input
@@ -112,17 +160,19 @@
           <fieldset>
             <legend>Mensaje</legend>
             <input
-            class="inputs"
+              class="inputs"
               type="text"
               name="asunto"
               id="asunto"
               placeholder="Asunto..."
             /><br />
             <textarea
-            class="inputs"
+              class="inputs"
               name="mensaje"
               id="mensaje"
               placeholder="Mensaje..."
+              rows="4"
+              cols="80"
             ></textarea
             ><br />
             <input type="file" name="archivo" id="archivo" />
@@ -131,6 +181,16 @@
         </form>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <ul>
+        <li><a href="" target="_blank">Política de Privacidad</a></li>
+        <li><a href="" target="_blank">Mapa del Sitio</a></li>
+        <li><a href="" target="_blank">Términos y Condiciones</a></li>
+      </ul>
+      <p>
+        No nos hacemos responsables de la veracidad de los datos contenidos en
+        esta web. Las afirmaciones que aquí se hacen no tienen validez legal.
+      </p>
+    </footer>
   </body>
 </html>
